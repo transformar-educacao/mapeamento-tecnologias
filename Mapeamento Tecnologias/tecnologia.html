@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Detalhes da Tecnologia</title>
+  <link rel="icon" type="image/png" href="assets/estados/criatividade.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="technology-details-container">
+      <div class="technology-details-header">
+        <a href="index.html" class="back-button">
+          <i class="fas fa-chevron-left"></i> Voltar
+        </a>
+      </div>
+
+      <div class="technology-title-container">
+        <img src="" alt="" class="technology-details-image" id="technology-image">
+        <h1 class="technology-details-title" id="technology-title">Carregando...</h1>
+      </div>
+      
+      <div class="technology-details-info">
+        <p class="technology-details-description" id="technology-description">Carregando...</p>
+        
+        <div class="technology-meta">
+          <div class="technology-meta-item">
+            <i class="fa-solid fa-money-bill-wave"></i>
+            <span id="technology-license">Carregando...</span>
+          </div>
+          
+          <div class="technology-meta-item">
+            <i class="fa-solid fa-layer-group"></i>
+            <span id="technology-tipo">Carregando...</span>
+          </div>
+        </div>
+        
+        <a href="#" target="_blank" class="technology-access-link" id="technology-link">
+          <i class="fas fa-external-link-alt"></i> Acessar
+        </a>
+      </div>
+      
+      <div class="testimonials-container">
+        <h2 class="testimonials-header"><i class="fa-solid fa-comments"></i> Experiências com a tecnologia ou recurso</h2>
+        <div id="testimonials-list">
+          <!-- Depoimentos serão carregados dinamicamente -->
+        </div>
+      </div>
+    <a href="https://forms.office.com/r/WC8sknskh6" target="_blank" class="redirect">
+    <button class="action-button action-button-center">
+      <i class="fas fa-plus-circle"></i> Submeter experiência com a tecnologia
+    </button>
+    </a>
+    </div> <link rel="icon" type="image/png" href="assets/estados/criatividade.png">
+    
+    <script src="script.js"></script>
+    <script>
+      // Função para obter parâmetros da URL
+      function getUrlParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+      }
+      
+      // Função para renderizar categorias
+      function renderCategories(categoryString) {
+        if (!categoryString) return '';
+        
+        const categories = categoryString.split('\n');
+        return categories.map(category => {
+          category = category.trim();
+          if (category) {
+            return `<span class="testimonial-category">${category}</span>`;
+          }
+          return '';
+        }).join('');
+      }
+      
+      // Carregar os detalhes da tecnologia
+      document.addEventListener('DOMContentLoaded', async function() {
+        const techId = parseInt(getUrlParameter('id'));
+        
+        // Se technologies não estiver definido, carregue-o
+        if (!window.technologies || window.technologies.length === 0) {
+          window.technologies = await processTechnologies();
+        }
+        
+        // Encontrar a tecnologia pelo ID
+        const technology = window.technologies.find(tech => tech.id === techId);
+        
+        if (technology) {
+          // Preencher os detalhes da tecnologia
+          document.getElementById('technology-title').textContent = technology.name;
+          document.getElementById('technology-image').src = technology.image;
+          document.getElementById('technology-description').textContent = technology.fullDescription;
+          document.getElementById('technology-license').textContent = technology.license;
+          document.getElementById('technology-tipo').textContent = technology.tipo;
+          document.getElementById('technology-link').href = technology.url;
+          
+          // Carregar os depoimentos
+          const testimonialsList = document.getElementById('testimonials-list');
+          testimonialsList.innerHTML = '';
+          
+          if (technology.testimonials && technology.testimonials.length > 0) {
+            technology.testimonials.forEach(testimonial => {
+              const testimonialItem = document.createElement('div');
+              testimonialItem.className = 'testimonial-item';
+              
+              // Renderizando categorias como tags
+              const categoriesHTML = renderCategories(testimonial.category);
+              
+              testimonialItem.innerHTML = `
+                <div class="testimonial-header">
+                  <div class="testimonial-info">
+                    <h3 class="testimonial-name">${testimonial.name}</h3>
+                   <!-- <p class="testimonial-department">${testimonial.department}</p> -->
+                  </div>
+                </div>
+                <p class="testimonial-content">${testimonial.content}</p>
+                <div class="testimonial-categories">
+                  ${categoriesHTML}
+                </div>
+                <p class="testimonial-date">${testimonial.date}</p>
+              `;
+              testimonialsList.appendChild(testimonialItem);
+            });
+          } else {
+            testimonialsList.innerHTML = '<p class="no-testimonials">Ainda não há depoimentos para esta tecnologia.</p>';
+          }
+        } else {
+          // Tecnologia não encontrada
+          document.getElementById('technology-title').textContent = 'Tecnologia não encontrada';
+          document.getElementById('technology-description').textContent = 'A tecnologia solicitada não foi encontrada.';
+        }
+      });
+    </script>
+</body>
+</html>

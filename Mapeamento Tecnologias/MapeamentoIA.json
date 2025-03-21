@@ -1,0 +1,522 @@
+[
+    {
+        "Departamento Regional": "Bahia",
+        "Inteligência Artificial": "Auto Draw",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Apoio pedagógico",
+        "Descrição da Inteligência Artificial": "AutoDraw é uma ferramenta online desenvolvida pelo Google Creative Lab que combina machine learning com desenhos feitos à mão. Seu objetivo é auxiliar as pessoas na criação rápida de desenhos, mesmo que não possuam habilidades artísticas avançadas. ",
+        "Casos de Uso": "A atividade desenvolvida foi realizada com a turma de Full Stack, com o objetivo de os alunos criarem uma empresa para alocar o desenvolvimento do projeto integrador e realizarem entrevista com o cliente solicitante da solução. A aplicação da ferramenta se desdobrou durante as dinâmicas interativas de design com gestão do tempo e produção de desenhos.  ",
+        "Licença": "Gratuito",
+        "Link": "https://autodraw.com/"
+    },
+    {
+        "Departamento Regional": "Amapá",
+        "Inteligência Artificial": "Bree AI",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "Bree AI é uma ferramenta que proporciona uma forma prática e eficiente de acessar o ChatGPT diretamente da área de trabalho do Windows.",
+        "Casos de Uso": "Inicialmente, foi realizada uma pesquisa sistematizada utilizando o ChatGPT para a elaboração de um modelo de negócios.  ",
+        "Licença": "Pago",
+        "Link": "https://www.breeai.com/"
+    },
+    {
+        "Departamento Regional": "Rio Grande do Norte",
+        "Inteligência Artificial": "Chat Class",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Aprendizagem de idiomas",
+        "Descrição da Inteligência Artificial": "ChatClass é uma plataforma educacional que utiliza inteligência artificial para aprimorar o ensino de idiomas, com ênfase especial no inglês.",
+        "Casos de Uso": "Esta ferramenta é aplicada no ensino de idiomas, oferecendo um curso de inglês através de um chatbot pelo WhatsApp. O objetivo é pilotar o ensino de idiomas com o suporte de assistentes de ensino, visando avaliar a viabilidade da educação flexível com o uso da inteligência artificial.  ",
+        "Licença": "Pago",
+        "Link": "https://www.chatclass.ai/"
+    },
+    {
+        "Departamento Regional": "Alagoas",
+        "Inteligência Artificial": "Chat GPT",
+        "Categoria": "Conteúdos e Eventos",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "ChatGPT é uma aplicação de conversação desenvolvida pela OpenAI que utiliza modelos de linguagem baseados em inteligência artificial para gerar respostas textuais em tempo real. ",
+        "Casos de Uso": "1. Construção/Elaboração de estudos de casos e situações problemas a serem trabalhados no curso de Técnico em Enfermagem, utilizando o ChatGPT como ferramenta de cocriação.\n \n2. Elaboração do Plano de Trabalho Docente. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://chatgpt.com/"
+    },
+    {
+        "Departamento Regional": "Amapá",
+        "Inteligência Artificial": "Chat GPT",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "ChatGPT é uma aplicação de conversação desenvolvida pela OpenAI que utiliza modelos de linguagem baseados em inteligência artificial para gerar respostas textuais em tempo real. ",
+        "Casos de Uso": "1. Em primeiro momento, a ferramenta foi utilizada para realizar uma pesquisa sistematizada, depois para a pesquisa de um modelo de negócios. Foi aplicada também na análise do modelo de negócios e em situações de aprendizagem, os alunos integraram o ChatGPT (ou outra ferramenta de IA) na análise do modelo de negócios. \n2. Através da pesquisa realizada pelo ChatGPT foi possível idealizar o projeto, laboratório juventude da turma de serviços administrativos da aprendizagem - com o tema dengue. \n3. Utilização da IA em sala de aula com vistas ao auxílio do desenvolvimento e aprendizagem dos temas abordados, através de pesquisas feitas pelos alunos diretamente à ferramenta, com a utilização de metodologia adequada. \n4. Nesta ação, os alunos utilizaram a Inteligência Artificial para facilitar a mensuração e formatação de slides em sua linha de pesquisa. A solução implementada envolve a criação de uma metodologia eficiente, apoiada por ferramentas de IA, para otimizar o processo de análise e apresentação de dados. \n5. Uso do ChatGPT para reescrever textos empresariais, como comunicados internos, relatórios e documentos oficiais, de uma linguagem informal para uma linguagem mais formal e profissional. \n6. Nesta ação, os alunos utilizam a Inteligência Artificial para facilitar a mensuração e formatação de slides em sua linha de pesquisa. A solução implementada envolve a criação de uma metodologia eficiente, apoiada por ferramentas de IA, para otimizar o processo de análise e apresentação de dados. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://chatgpt.com/"
+    },
+    {
+        "Departamento Regional": "Bahia",
+        "Inteligência Artificial": "Chat GPT",
+        "Categoria": "Oferta Educacional\nPrática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "ChatGPT é uma aplicação de conversação desenvolvida pela OpenAI que utiliza modelos de linguagem baseados em inteligência artificial para gerar respostas textuais em tempo real. ",
+        "Casos de Uso": "Uso do Chat GPT no mapeamento de tendências de mercado, organização de tarefas e construção de cronogramas de ações, mentoria, planejamento de postagens nas redes sociais - temas relevantes e atuais para o segmento atendido e com informações sobre a persona e realização de brainstorms de temas e soluções para situações trazidas pelos mentorados. \nAuxiliar no desenvolvimento de materiais pedagógicos escritos (Slides) e na organização estrutural da elaboração do Plano de Trabalho Docente. \nAuxílio no desenvolvimento de PTD, cocriação de roteiros de estudos, uso em sala de aula para pesquisa e auxílio no desenvolvimento de projetos. \nCriação e revisão de roteiros. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://chatgpt.com/"
+    },
+    {
+        "Departamento Regional": "Espírito Santo",
+        "Inteligência Artificial": "Chat GPT",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "ChatGPT é uma aplicação de conversação desenvolvida pela OpenAI que utiliza modelos de linguagem baseados em inteligência artificial para gerar respostas textuais em tempo real. ",
+        "Casos de Uso": "Uso do ChatGPT como apoio pedagógico no planejamento docente, atuando na criação de provas e elaboração de questões para o processo seletivo. \n \nUso do ChatGPT para a criação do plano de aprendizagem. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://chatgpt.com/"
+    },
+    {
+        "Departamento Regional": "Mato Grosso do Sul",
+        "Inteligência Artificial": "Chat GPT",
+        "Categoria": "Conteúdos e Eventos\nPrática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "ChatGPT é uma aplicação de conversação desenvolvida pela OpenAI que utiliza modelos de linguagem baseados em inteligência artificial para gerar respostas textuais em tempo real. ",
+        "Casos de Uso": "Uso como apoio pedagógico no planejamento docente e em sala de aula, orientando os alunos a utilizarem o ChatGPT para fazer pesquisas relevantes e coleta de dados pertinentes a aula corporativa em diferentes cursos in company realizados nas unidades do MS. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://chatgpt.com/"
+    },
+    {
+        "Departamento Regional": "Pará",
+        "Inteligência Artificial": "Chat GPT",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "ChatGPT é uma aplicação de conversação desenvolvida pela OpenAI que utiliza modelos de linguagem baseados em inteligência artificial para gerar respostas textuais em tempo real. ",
+        "Casos de Uso": "1. Uso do Chat GPT na melhoria de textos, sugestões de atividades. Assistente Digital Educacional. \n 2. Emprego da ferramenta no auxílio do desenvolvimento e correção de algoritmos, geração de exercícios baseados no texto usados nas aulas, geração de conteúdo para aulas, redução de dúvidas e norteamento de pensamentos. \n3. Para aplicar uma técnica de aprimoramento de código, utilizando o Chat GPT para agilizar o desenvolvimento de código responsivo desenvolvido pelos alunos do curso de programador de sistemas.  \n4. Uso do Chat GPT para realização de pesquisas, criação e apresentação de textos para comercialização de produtos. \n5. Desenvolvimento de exercícios, correção e desenvolvimento em várias linguagens de programação, criação de imagens e vídeos para fins didáticos. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://chatgpt.com/"
+    },
+    {
+        "Departamento Regional": "Pernambuco",
+        "Inteligência Artificial": "Chat GPT",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "ChatGPT é uma aplicação de conversação desenvolvida pela OpenAI que utiliza modelos de linguagem baseados em inteligência artificial para gerar respostas textuais em tempo real. ",
+        "Casos de Uso": "1. Ferramenta empregue como apoio pedagógico, com participação em projetos internos e externos (utilizada principalmente pelos instrutores), uso em sala de aula e para atividades rotineiras de trabalho. \n2. Ferramenta utilizada para auxiliar na elaboração de documentos. \n3. Utilização do chat GPT para criação de metodologias educacionais e atividades de TI, material de didáticos e projetos com alunos do ensino médio e nos cursos profissionalizantes. \n4. Orientação e estímulo consciente dos alunos para uso da IA no gerenciamento dos projetos no dia a dia educacional, uso de simuladores nas aulas e oferta do curso de IA para produção audiovisual. \n5. Geração de texto para elaboração do contrato de parceria para evento do Laboratório Juventudes. \n6. Adaptação da IA as necessidades individuais dos alunos, criação de materiais e exercícios personalizados. Uso como Assistentes Virtuais, análise de dados educacionais, simulação e ambientação de protótipo. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://chatgpt.com/"
+    },
+    {
+        "Departamento Regional": "Piauí",
+        "Inteligência Artificial": "Chat GPT",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "ChatGPT é uma aplicação de conversação desenvolvida pela OpenAI que utiliza modelos de linguagem baseados em inteligência artificial para gerar respostas textuais em tempo real. ",
+        "Casos de Uso": "1. A ferramenta foi empregue como mecanismo de busca durante uma análise aprofundada sobre a evolução histórica da UTI, contemplando desde a estrutura física, organizacional e de pessoal através da construção de Storyboard. \n2. Nas aulas de Informática, os docentes utilizam o ChatGPT para a elaboração das atividades e desafios em sala, atuando como apoio pedagógico. \n3. Utilização do ChatGPT para pesquisa sobre informações sobre marcas de produtos para criação de apresentações no Powerpoint 365. \n4. Ferramenta utilizada na construção de textos, mas com curadoria final de checagem de informações e revisão do texto. Uso para melhorar a dinâmica da aula no curso de word, uso para criação de roteiro para elaboração de slides – aula do PowerPoint; Uso para buscar soluções de problemas de dados nas empresas para geração da melhor planilha eletrônica com o uso de fórmulas do ensino básico, intermediário ou avançado do Excel. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://chatgpt.com/"
+    },
+    {
+        "Departamento Regional": "São Paulo",
+        "Inteligência Artificial": "Chat GPT",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "ChatGPT é uma aplicação de conversação desenvolvida pela OpenAI que utiliza modelos de linguagem baseados em inteligência artificial para gerar respostas textuais em tempo real. ",
+        "Casos de Uso": "1. Totem com assistente virtual em aula para apoio do trabalho docente: totem com IA interagindo com alunos, com mediação do docente. \n2. Utilização de IA para apoiar produção audiovisual de recursos didáticos digitais. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://chatgpt.com/"
+    },
+    {
+        "Departamento Regional": "Rio Grande do Norte",
+        "Inteligência Artificial": "Chat GPT",
+        "Categoria": "Conteúdos e Eventos\nFormação Docente\nGestão Educacional\nOferta Educacional\nPrática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "ChatGPT é uma aplicação de conversação desenvolvida pela OpenAI que utiliza modelos de linguagem baseados em inteligência artificial para gerar respostas textuais em tempo real. ",
+        "Casos de Uso": "1. ChatGPT foi utilizado durante o desenvolvimento do Chatbot “Sofia” no Telegram, para a cocriação do design conversacional e como copiloto de programação e algoritmos de tomada de decisão.  \n2. ChatGPT foi empregue na Criação da Assistente Digital de Ensino “Sofia”, atuando no desenvolvimento da personalidade e diálogos.  \n3. Oficina para auxiliar os estudantes a simular entrevista de emprego e criação de currículo com uso de IA. \n4. ChatGPT para suporte na criação de conteúdo educacional e interação em sala de aula. \n5. Programa de desenvolvimento de equipes da área jornalística para estimular uma cultura ágil e inovadora frente às tendências e demandas do mercado, através da utilização da inteligência artificial. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://chatgpt.com/"
+    },
+    {
+        "Departamento Regional": "São Paulo",
+        "Inteligência Artificial": "Consensus",
+        "Categoria": "Gestão Educacional",
+        "Subcategoria da Ferramenta": "Pesquisa",
+        "Descrição da Inteligência Artificial": "Consensus é um mecanismo de busca que fornece respostas baseadas exclusivamente em informações provenientes de pesquisas científicas revisadas por pares.",
+        "Casos de Uso": "Orientação para uso de IA em pesquisas de artigos científicos e checagem de fatos.",
+        "Licença": "Gratuito",
+        "Link": "https://consensus.app/"
+    },
+    {
+        "Departamento Regional": "Amapá",
+        "Inteligência Artificial": "Copilot",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "Copilot é uma ferramenta de assistência alimentada por inteligência artificial, integrada ao ecossistema Microsoft 365. Essa plataforma é projetada para aprimorar a produtividade e a criatividade, automatizando tarefas rotineiras e transformando a linguagem natural em ações produtivas por meio de aplicativos como Word, Excel, PowerPoint, Outlook e Teams. ",
+        "Casos de Uso": "Utilização da IA em sala de aula com vistas ao auxílio do desenvolvimento e aprendizagem dos temas abordados, através de pesquisas feitas pelos alunos diretamente à ferramenta, com a utilização de metodologia adequada. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://copilot.microsoft.com/"
+    },
+    {
+        "Departamento Regional": "Bahia",
+        "Inteligência Artificial": "Copilot",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "Copilot é uma ferramenta de assistência alimentada por inteligência artificial, integrada ao ecossistema Microsoft 365. Essa plataforma é projetada para aprimorar a produtividade e a criatividade, automatizando tarefas rotineiras e transformando a linguagem natural em ações produtivas por meio de aplicativos como Word, Excel, PowerPoint, Outlook e Teams. ",
+        "Casos de Uso": "1. Utilização do Copilot na criação de códigos exemplos na UC de Algoritmos e a partir dos códigos gerados pela IA criar outras formas de resolução do problema, diferentes do que foi gerado automaticamente. \n2. Auxiliar no desenvolvimento de materiais pedagógicos escritos (slides) e na organização estrutural da elaboração do Plano de Trabalho Docente. \n3. Auxílio no desenvolvimento de PTD, cocriação de roteiros de estudos, uso em sala de aula para pesquisa e auxílio no desenvolvimento de projetos. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://copilot.microsoft.com/"
+    },
+    {
+        "Departamento Regional": "Pará",
+        "Inteligência Artificial": "Copilot",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "Copilot é uma ferramenta de assistência alimentada por inteligência artificial, integrada ao ecossistema Microsoft 365. Essa plataforma é projetada para aprimorar a produtividade e a criatividade, automatizando tarefas rotineiras e transformando a linguagem natural em ações produtivas por meio de aplicativos como Word, Excel, PowerPoint, Outlook e Teams. ",
+        "Casos de Uso": "1. Ferramenta empregue como apoio pedagógico, atuando em ajustes de texto e sugestões de atividades. \n 2. Aplicação do Copilot no auxílio no desenvolvimento e correção de algoritmos, geração de exercícios baseados nos textos usados nas aulas, geração de conteúdo para aulas, redução de dúvidas e norteamento de pensamentos. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://copilot.microsoft.com/"
+    },
+    {
+        "Departamento Regional": "Pernambuco",
+        "Inteligência Artificial": "Copilot",
+        "Categoria": "Formação Docente\nPrática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "Copilot é uma ferramenta de assistência alimentada por inteligência artificial, integrada ao ecossistema Microsoft 365. Essa plataforma é projetada para aprimorar a produtividade e a criatividade, automatizando tarefas rotineiras e transformando a linguagem natural em ações produtivas por meio de aplicativos como Word, Excel, PowerPoint, Outlook e Teams. ",
+        "Casos de Uso": "1. Adaptação da IA as necessidades individuais dos alunos, criação de materiais e exercícios personalizados. Uso como Assistentes Virtuais, análise de dados educacionais, simulação e ambientação de protótipo. \n2. Empregue na geração de imagens, atividades de ensino-aprendizagem e auxílio no desenvolvimento de feedbacks. \n3. Uso da ferramenta Copilot para criação de metodologias educacionais e atividades de TI, materiais didáticos e projetos com alunos do ensino médio e nos cursos profissionalizantes. \n4. Orientação e estímulo consciente dos alunos para uso da IA no gerenciamento dos projetos no dia a dia educacional. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://copilot.microsoft.com/"
+    },
+    {
+        "Departamento Regional": "Santa Catarina",
+        "Inteligência Artificial": "DALL-E",
+        "Categoria": "Formação Docente",
+        "Subcategoria da Ferramenta": "Geração de imagens ",
+        "Descrição da Inteligência Artificial": "DALL-E é um modelo de inteligência artificial desenvolvido pela OpenAI, baseado no GPT, projetado para criar imagens sintéticas a partir de descrições textuais (prompts). ",
+        "Casos de Uso": "Apoio pedagógico com uso em sala de aula, para geração de imagens a partir de prompts. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://openart.ai/"
+    },
+    {
+        "Departamento Regional": "Pernambuco",
+        "Inteligência Artificial": "DeckTopus",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Criação de apresentações",
+        "Descrição da Inteligência Artificial": "DeckTopus  é uma plataforma inovadora de criação de apresentações, projetada para facilitar e agilizar o processo de design de slides. A ferramenta oferece uma variedade de funcionalidades que permitem aos usuários gerarem apresentações visualmente atraentes com pouco esforço, economizando tempo significativo na preparação dos slides. ",
+        "Casos de Uso": "Participação em projetos internos e externos (utilizada principalmente pelos instrutores), na criação de slides para uso em sala de aula. ",
+        "Licença": "Pago",
+        "Link": "https://www.decktopus.com/"
+    },
+    {
+        "Departamento Regional": "Pernambuco",
+        "Inteligência Artificial": "Designer",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Geração de imagens ",
+        "Descrição da Inteligência Artificial": "Designer é um programa de inteligência artificial desenvolvido para criar imagens a partir de descrições textuais. Utilizando algoritmos avançados de processamento de linguagem natural e geração de imagens, a ferramenta permite que os usuários transformem suas ideias textuais em representações visuais de alta qualidade.  ",
+        "Casos de Uso": "Geração de imagem para logomarca do projeto do Laboratório Juventudes. ",
+        "Licença": "Gratuito",
+        "Link": "https://designer.microsoft.com/"
+    },
+    {
+        "Departamento Regional": "Rio Grande do Norte",
+        "Inteligência Artificial": "D-ID",
+        "Categoria": "Conteúdos e Eventos\nPrática Docente",
+        "Subcategoria da Ferramenta": "Produção de vídeos",
+        "Descrição da Inteligência Artificial": "D-ID é uma plataforma de ponta para geração de conteúdo audiovisual com inteligência artificial, permitindo a criação de vídeos falados utilizando avatares digitais realistas. A ferramenta emprega tecnologia avançada de animação facial e conversão de texto em fala, transformando fotos estáticas em vídeos interativos e personalizados.  ",
+        "Casos de Uso": "Criação das animações para a assistente virtual de ensino “Sofia”.",
+        "Licença": "Pago",
+        "Link": "https://www.d-id.com/"
+    },
+    {
+        "Departamento Regional": "Pernambuco",
+        "Inteligência Artificial": "Educaplay",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Apoio pedagógico",
+        "Descrição da Inteligência Artificial": "Educaplay é uma plataforma versátil que permite aos docentes criar uma variedade de jogos e atividades educacionais interativas on-line, utilizando inteligência artificial. A ferramenta oferece recursos para inclusão de textos, imagens, áudios e vídeos, possibilitando a personalização do aprendizado de maneira criativa e envolvente.",
+        "Casos de Uso": "Utilizado pelos instrutores, no planejamento docente, para criação automática de atividades gamificadas. ",
+        "Licença": "Pago",
+        "Link": "https://www.educaplay.com/"
+    },
+    {
+        "Departamento Regional": "Pernambuco",
+        "Inteligência Artificial": "Eleven Labs",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Tratamento de áudio",
+        "Descrição da Inteligência Artificial": "Eleven Labs é uma plataforma avançada de geração de voz por inteligência artificial, capaz de transformar texto em áudio falado com uma naturalidade impressionante. Utilizando algoritmos de inteligência artificial para gerar entonações e sotaques realistas, a ferramenta oferece uma ampla gama de opções de vozes em diversos idiomas. ",
+        "Casos de Uso": "Apoio pedagógico no uso em sala de aula, utilizado no curso de IA para produção audiovisual. ",
+        "Licença": "Gratuito",
+        "Link": "https://elevenlabs.io/"
+    },
+    {
+        "Departamento Regional": "São Paulo",
+        "Inteligência Artificial": "Elicit",
+        "Categoria": "Gestão Educacional",
+        "Subcategoria da Ferramenta": "Pesquisa",
+        "Descrição da Inteligência Artificial": "Elicit é um assistente de pesquisa projetado para automatizar fluxos de trabalho de pesquisa. A ferramenta utiliza modelos de linguagem avançados para identificar documentos relevantes, mesmo sem uma correspondência perfeita de palavras-chave.",
+        "Casos de Uso": "Orientação para uso de IA em pesquisas de artigos científicos e checagem de fatos. ",
+        "Licença": "Gratuito",
+        "Link": "https://elicit.com/"
+    },
+    {
+        "Departamento Regional": "Pará",
+        "Inteligência Artificial": "FADR",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Tratamento de áudio",
+        "Descrição da Inteligência Artificial": "FADR é uma plataforma de criação musical que utiliza inteligência artificial para facilitar a produção, remixagem e edição de músicas. A ferramenta oferece uma ampla gama de funcionalidades, incluindo   remoção de vocais, divisão de faixas, detecção de tempo, chave e acordes. Além disso, disponibiliza recursos para criação de remixes e mashups, bem como um controlador de DJ alimentado por inteligência artificial, permitindo performances de DJ ao vivo com sincronização automática e gestão de trilhas musicais. ",
+        "Casos de Uso": "Utilizado no curso de DJ, usando os recursos para remover voz de faixas, dividir músicas e detectar tom/tempo/acordes. ",
+        "Licença": "Pago",
+        "Link": "https://fadr.com/"
+    },
+    {
+        "Departamento Regional": "Bahia",
+        "Inteligência Artificial": "Firefly",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Geração de imagens ",
+        "Descrição da Inteligência Artificial": "Firefly é uma ferramenta de inteligência artificial projetada para criar imagens, texturas e outros elementos visuais a partir de texto ou imagens existentes.",
+        "Casos de Uso": "Alunos do curso de Design Gráfico utilizam o Firefly e outras ferramentas de IA para gerar ilustrações, concept art e outros elementos visuais, complementando suas habilidades e expandindo suas possibilidades criativas. ",
+        "Licença": "Gratuito",
+        "Link": "https://www.adobe.com/products/firefly.html"
+    },
+    {
+        "Departamento Regional": "São Paulo",
+        "Inteligência Artificial": "Firefly",
+        "Categoria": "Gestão Educacional\nPrática Docente",
+        "Subcategoria da Ferramenta": "Geração de imagens ",
+        "Descrição da Inteligência Artificial": "Firefly é uma ferramenta de inteligência artificial projetada para criar imagens, texturas e outros elementos visuais a partir de texto ou imagens existentes.",
+        "Casos de Uso": " \nUtilização de IA para apoiar produção audiovisual de recursos didáticos digitais. ",
+        "Licença": "Gratuito",
+        "Link": "https://www.adobe.com/products/firefly.html"
+    },
+    {
+        "Departamento Regional": "Piauí",
+        "Inteligência Artificial": "Futurepedia",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Pesquisa",
+        "Descrição da Inteligência Artificial": "Futurepedia é uma plataforma de recursos de inteligência artificial dedicada a capacitar profissionais de diversos setores e aproveitar as tecnologias de IA para inovação e crescimento.",
+        "Casos de Uso": "Usado no curso técnico de informática como local de pesquisa para incentivar os alunos a descobrirem mais ferramentas de IA, para diversas aplicações. As ferramentas escolhidas pelos alunos são então experimentadas em sala de aula. ",
+        "Licença": "Gratuito",
+        "Link": "https://www.futurepedia.io/"
+    },
+    {
+        "Departamento Regional": "Amapá",
+        "Inteligência Artificial": "Gamma",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Criação de apresentações",
+        "Descrição da Inteligência Artificial": "Gama é uma plataforma de inteligência artificial projetada para criar apresentações, documentos e páginas web. Através de um processo simplificado, os usuários podem gerar um rascunho inicial, optando por gerar, colar ou importar conteúdo. Posteriormente esse conteúdo pode ser refinado e personalizado conforme necessário. ",
+        "Casos de Uso": "Nesta ação, os alunos utilizam a Inteligência Artificial para facilitar a mensuração e formatação de slides em sua linha de pesquisa. A solução implementada envolve a criação de uma metodologia eficiente, apoiada por ferramentas de IA, para otimizar o processo de análise e apresentação de dados. O papel do Gamma nessa ação foi oferecer recursos para criação de slides para apresentações dinâmicas. ",
+        "Licença": "Gratuito",
+        "Link": "https://gamma.app/pt-br "
+    },
+    {
+        "Departamento Regional": "Piauí",
+        "Inteligência Artificial": "Gamma",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Criação de apresentações",
+        "Descrição da Inteligência Artificial": "Gama é uma plataforma de inteligência artificial projetada para criar apresentações, documentos e páginas web. Através de um processo simplificado, os usuários podem gerar um rascunho inicial, optando por gerar, colar ou importar conteúdo. Posteriormente esse conteúdo pode ser refinado e personalizado conforme necessário. ",
+        "Casos de Uso": "Ferramenta empregue na geração de slides automaticamente. Utilizado nas aulas de PowerPoint. ",
+        "Licença": "Gratuito",
+        "Link": "https://gamma.app/pt-br "
+    },
+    {
+        "Departamento Regional": "Mato Grosso do Sul",
+        "Inteligência Artificial": "Gemini",
+        "Categoria": "Conteúdos e Eventos\nPrática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "Gemini é um modelo avançado de aprendizado de máquina projetado para gerar respostas textuais com base em entradas fornecidas pelos usuários. Utilizando técnicas sofisticadas de processamento de linguagem natural, a ferramenta é capaz de compreender e interpretar uma ampla variedade de solicitações, fornecendo respostas precisas e contextualmente relevantes. ",
+        "Casos de Uso": "1. Uso do Gemini como ferramenta de pesquisa. \n2. Auxílio no desenvolvimento de PTD; Cocriação de Roteiros de estudos; Uso em sala de aula para pesquisa e auxílio no desenvolvimento de projetos. \n3. Criação e revisão de roteiros. \n4. Os estudantes utilizaram a IA para planejar, executar e avaliar uma ação avaliativa: Treinamento e Desenvolvimento de Pessoas. Eles organizaram uma roda de conversa sobre diversidade religiosa e foram incentivados a utilizarem a IA para auxiliá-los desde o planejamento, execução até a avaliação do evento.  ",
+        "Licença": "Gratuito",
+        "Link": "https://gemini.google.com/app"
+    },
+    {
+        "Departamento Regional": "Pará",
+        "Inteligência Artificial": "Gemini",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "Gemini é um modelo avançado de aprendizado de máquina projetado para gerar respostas textuais com base em entradas fornecidas pelos usuários. Utilizando técnicas sofisticadas de processamento de linguagem natural, a ferramenta é capaz de compreender e interpretar uma ampla variedade de solicitações, fornecendo respostas precisas e contextualmente relevantes. ",
+        "Casos de Uso": "Foi usado o Gemini para criar o roteiro com uso das ferramentas de planejamento, 5w2h, fluxogramas, cronogramas de ação. ",
+        "Licença": "Gratuito",
+        "Link": "https://gemini.google.com/app"
+    },
+    {
+        "Departamento Regional": "Pernambuco",
+        "Inteligência Artificial": "Gemini",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "Gemini é um modelo avançado de aprendizado de máquina projetado para gerar respostas textuais com base em entradas fornecidas pelos usuários. Utilizando técnicas sofisticadas de processamento de linguagem natural, a ferramenta é capaz de compreender e interpretar uma ampla variedade de solicitações, fornecendo respostas precisas e contextualmente relevantes. ",
+        "Casos de Uso": "1. Participação em projetos internos e externos (utilizada principalmente pelos instrutores), uso em sala de aula e para atividades rotineiras de trabalho. \n2. Adaptação da IA as necessidades individuais dos alunos, materiais e exercícios personalizados. Uso como Assistentes Virtuais, análise de dados educacionais, simulação e ambientação de protótipo.  ",
+        "Licença": "Gratuito",
+        "Link": "https://gemini.google.com/app"
+    },
+    {
+        "Departamento Regional": "Pernambuco",
+        "Inteligência Artificial": "Gencraft",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Geração de imagens ",
+        "Descrição da Inteligência Artificial": "Gencraft é uma plataforma inovadora de geração de arte baseada em inteligência artificial que permite aos usuários criar obras de arte personalizadas e vídeos a partir de descrições textuais simples. A ferramenta se destaca por sua capacidade avançada de transformar texto em imagem, oferecendo uma ampla variedade de estilos, desde o realismo fotográfico até a animação e a pintura a óleo. ",
+        "Casos de Uso": "Geração de ilustrações e imagens. ",
+        "Licença": "Gratuito",
+        "Link": "https://gencraft.com/"
+    },
+    {
+        "Departamento Regional": "Alagoas",
+        "Inteligência Artificial": "Gliglish",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Aprendizagem de idiomas",
+        "Descrição da Inteligência Artificial": "Gliglish é uma ferramenta inovadora de aprendizado de idiomas baseada em inteligência artificial, projetada para melhorar as habilidades de conversação e compreensão dos usuários em diversos idiomas. A plataforma interativa, permite que os alunos pratiquem fala e escuta em situações cotidianas, fornecendo feedback imediato sobre pronúncia, gramática e uso do vocabulário. ",
+        "Casos de Uso": "Promover o diálogo para simular conversas reais em inglês, permitindo que os usuários pratiquem falar e ouvir de maneira interativa. ",
+        "Licença": "Gratuito",
+        "Link": "https://gliglish.com/intl/pt"
+    },
+    {
+        "Departamento Regional": "Santa Catarina",
+        "Inteligência Artificial": "Leonardo AI",
+        "Categoria": "Formação Docente",
+        "Subcategoria da Ferramenta": "Geração de imagens ",
+        "Descrição da Inteligência Artificial": "Leonardo AI é uma plataforma inovadora que utiliza inteligência artificial para permitir a criação e personalização de ativos visuais de alta qualidade. Com foco na ampliação da capacidade criativa dos usuários, a ferramenta oferece desde geração de imagens até edição avançada, abrangendo uma variedade de estilos artísticos e realistas. ",
+        "Casos de Uso": "Ferramenta será aplicada em uma formação estadual por web, realizada pelos colaboradores do DR, por convite e, também será gravada e editada em recortes por etapas para diferentes utilizações pelo canal fechado do Youtube Senac/SC. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://leonardo.ai/"
+    },
+    {
+        "Departamento Regional": "Bahia",
+        "Inteligência Artificial": "Leonardo AI",
+        "Categoria": "Formação Docente",
+        "Subcategoria da Ferramenta": "Geração de imagens ",
+        "Descrição da Inteligência Artificial": "Leonardo AI é uma plataforma inovadora que utiliza inteligência artificial para permitir a criação e personalização de ativos visuais de alta qualidade. Com foco na ampliação da capacidade criativa dos usuários, a ferramenta oferece desde geração de imagens até edição avançada, abrangendo uma variedade de estilos artísticos e realistas. ",
+        "Casos de Uso": "Utilização em cursos e oficinas, com uma metodologia prática, mostrando as funcionalidades do programa e exercícios práticos aplicando esse programa no desenvolvimento do projeto pessoal de cada um. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://leonardo.ai/"
+    },
+    {
+        "Departamento Regional": "Bahia",
+        "Inteligência Artificial": "Luzia",
+        "Categoria": "Prática Docente\nOferta Educacional",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "LuzIA é um assistente inteligente baseado em inteligência artificial, desenvolvido para auxiliar os usuários em uma ampla gama de tarefas cotidianas e profissionais. Suas funcionalidades incluem conversação em tempo real, transcrição de áudios, tradução de idiomas e geração de imagens. A ferramenta é acessível principalmente por meio de um aplicativo móvel, mas também está disponível em outras plataformas como o WhatsApp. ",
+        "Casos de Uso": "Uso da ferramenta como mecanismo de busca e criação de textos sobre os assuntos abordados. ",
+        "Licença": "Gratuito",
+        "Link": "https://www.luzia.com/br"
+    },
+    {
+        "Departamento Regional": "Mato Grosso do Sul",
+        "Inteligência Artificial": "Luzia",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "LuzIA é um assistente inteligente baseado em inteligência artificial, desenvolvido para auxiliar os usuários em uma ampla gama de tarefas cotidianas e profissionais. Suas funcionalidades incluem conversação em tempo real, transcrição de áudios, tradução de idiomas e geração de imagens. A ferramenta é acessível principalmente por meio de um aplicativo móvel, mas também está disponível em outras plataformas como o WhatsApp. ",
+        "Casos de Uso": "Uso da ferramenta como apoio pedagógico no planejamento de aula. ",
+        "Licença": "Gratuito",
+        "Link": "https://www.luzia.com/br"
+    },
+    {
+        "Departamento Regional": "Piauí",
+        "Inteligência Artificial": "Luzia",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "LuzIA é um assistente inteligente baseado em inteligência artificial, desenvolvido para auxiliar os usuários em uma ampla gama de tarefas cotidianas e profissionais. Suas funcionalidades incluem conversação em tempo real, transcrição de áudios, tradução de idiomas e geração de imagens. A ferramenta é acessível principalmente por meio de um aplicativo móvel, mas também está disponível em outras plataformas como o WhatsApp. ",
+        "Casos de Uso": "Uso da ferramenta como apoio pedagógico. No curso de Customer Experience, os alunos utilizaram a ferramenta para construir e explorar ideias relacionadas ao atendimento ao cliente. ",
+        "Licença": "Gratuito",
+        "Link": "https://www.luzia.com/br"
+    },
+    {
+        "Departamento Regional": "Bahia",
+        "Inteligência Artificial": "Midjourney",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Geração de imagens ",
+        "Descrição da Inteligência Artificial": "Midjourney é uma plataforma avançada de inteligência artificial especializada na criação de imagens de alta qualidade a partir de descrições textuais. Utilizando técnicas de deep learning, essa ferramenta interpreta textos e os transforma em imagens detalhadas. ",
+        "Casos de Uso": "Implementação de um projeto para uso de inteligência artificial na criação de artes gráficas. Alunos do curso de Design Gráfico empregaram a ferramenta para gerar ilustrações, concept art e outros elementos visuais, complementando suas habilidades e expandindo suas possibilidades criativas. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://www.midjourney.com/home"
+    },
+    {
+        "Departamento Regional": "Rio Grande do Norte",
+        "Inteligência Artificial": "Midjourney",
+        "Categoria": "Conteúdos e Eventos\nPrática Docente",
+        "Subcategoria da Ferramenta": "Geração de imagens ",
+        "Descrição da Inteligência Artificial": "Midjourney é uma plataforma avançada de inteligência artificial especializada na criação de imagens de alta qualidade a partir de descrições textuais. Utilizando técnicas de deep learning, essa ferramenta interpreta textos e os transforma em imagens detalhadas. ",
+        "Casos de Uso": "Criação da identidade visual da assistente digital de ensino “Sofia”. \n \nCriação de elementos visuais e texturas, que foram empregues no desenvolvimento do metaverso interativo da unidade Escola Técnica com vídeos da Sofia sobre o MPS. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://www.midjourney.com/home"
+    },
+    {
+        "Departamento Regional": "Pernambuco",
+        "Inteligência Artificial": "Padlet",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Organização e produtividade",
+        "Descrição da Inteligência Artificial": "Padlet é uma ferramenta digital versátil que funciona como um mural virtual, permitindo a postagem, organização e compartilhamento de diversos tipos de conteúdo, como textos, imagens, links, vídeos e documentos. Semelhante a um quadro branco on-line, Padlet possibilita a colaboração de múltiplos usuários, tornando o ambiente interativo e dinâmico.  ",
+        "Casos de Uso": "A ferramenta facilitou o processo de realização de projetos colaborativos com os alunos. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://padlet.com/"
+    },
+    {
+        "Departamento Regional": "Mato Grosso do Sul",
+        "Inteligência Artificial": "Perplexity",
+        "Categoria": "Prática Docente\nConteúdos e Eventos",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "Perplexity é uma plataforma de busca e pesquisa, alimentada por inteligência artificial, que integra recursos de chatbots com funcionalidades de mecanismos de busca tradicionais. Essa combinação permite fornecer respostas precisas e confiáveis aos usuários.  ",
+        "Casos de Uso": "O professor utilizou a ferramenta como um dos mecanismos de busca entre os alunos, para pesquisas relevantes e coleta de dados pertinentes a aula corporativa em diferentes cursos in company realizados nas unidades do MS. A partir das informações da IA, foram propostas situações práticas e qualitativas para novas ideias e cenários no contexto das aulas. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://www.perplexity.ai/"
+    },
+    {
+        "Departamento Regional": "Pernambuco",
+        "Inteligência Artificial": "Perplexity",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "Perplexity é uma plataforma de busca e pesquisa, alimentada por inteligência artificial, que integra recursos de chatbots com funcionalidades de mecanismos de busca tradicionais. Essa combinação permite fornecer respostas precisas e confiáveis aos usuários.  ",
+        "Casos de Uso": "Ferramenta empregada como apoio pedagógico. A partir das interações com os conhecimentos propostos e conteúdos vivenciados as ferramentas de IA foram utilizadas para otimizar o aprendizado e despertar a criticidade dos discentes a partir dos novos conhecimentos adquiridos acerca das experiências vivenciadas, gerando novos conhecimentos. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://www.perplexity.ai/"
+    },
+    {
+        "Departamento Regional": "Bahia",
+        "Inteligência Artificial": "Quick Draw",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Apoio pedagógico",
+        "Descrição da Inteligência Artificial": "Quick Draw é uma ferramenta baseada em inteligência desenvolvida para identificar desenhos feitos pelo usuário. Utilizando técnicas avançadas de aprendizado de máquina, a ferramenta analisa os traços e formas desenhadas, comparando-os com um vasto banco de dados para reconhecer e nomear os objetos representados. Além de ser uma ferramenta educativa e divertida, Quick Draw também contribui para o aprimoramento dos algoritmos de reconhecimento de imagem. ",
+        "Casos de Uso": "A atividade desenvolvida foi realizada com a turma de Full Stack com o objetivo de os alunos criarem uma empresa para alocar o desenvolvimento do projeto integrador e realizarem entrevista com o cliente solicitante da solução. Desse modo, os alunos foram estimulados a criarem uma empresa e para atingir o objetivo utilizaram como apoio as ferramentas de IA. A ferramenta foi utilizada durante as dinâmicas interativas para design com gestão do tempo e produção de desenhos. ",
+        "Licença": "Gratuito",
+        "Link": "https://quickdraw.withgoogle.com/"
+    },
+    {
+        "Departamento Regional": "Bahia",
+        "Inteligência Artificial": "Quiz Gecko",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Apoio pedagógico",
+        "Descrição da Inteligência Artificial": "Quiz Gecko é uma ferramenta baseada em inteligência artificial projetada para gerar quizzes automaticamente a partir de prompts fornecidos pelo usuário. Utilizando algoritmos avançados de processamento de linguagem natural, a ferramenta interpreta os prompts e cria perguntas relevantes e desafiadoras.  ",
+        "Casos de Uso": "A atividade desenvolvida foi realizada com a turma de Full Stack com o objetivo de os alunos criarem uma empresa para alocar o desenvolvimento do projeto integrador e realizarem entrevista com o cliente solicitante da solução. Desse modo, os alunos foram estimulados a criarem uma empresa e para atingir o objetivo utilizaram como apoio as ferramentas de IA. A ferramenta foi empregada durante as dinâmicas interativas utilizando quiz e gerador de cards para aprendizado. ",
+        "Licença": "Pago e gratuito com recursos limitados",
+        "Link": "https://quizgecko.com/"
+    },
+    {
+        "Departamento Regional": "Espírito Santo",
+        "Inteligência Artificial": "Slides AI",
+        "Categoria": "Formação Docente",
+        "Subcategoria da Ferramenta": "Criação de apresentações",
+        "Descrição da Inteligência Artificial": "Slides AI é uma ferramenta baseada em inteligência artificial projetada para gerar apresentações de slides automaticamente a partir de prompts fornecidos pelo usuário. Utilizando algoritmos avançados de processamento de linguagem natural e aprendizado de máquina, a ferramenta interpreta os prompts e cria slides visualmente atraentes e informativos. ",
+        "Casos de Uso": "A ferramenta foi empregada em um projeto com todos os instrutores para iniciação no universo da inteligência artificial, para contribuição de profissionais com habilidades do futuro, conforme indicações do Fórum Mundial Econômico. ",
+        "Licença": "Gratuito",
+        "Link": "https://slidesai.io/"
+    },
+    {
+        "Departamento Regional": "Pernambuco",
+        "Inteligência Artificial": "Teachy",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Apoio pedagógico",
+        "Descrição da Inteligência Artificial": "Teachy é uma ferramenta baseada em inteligência artificial desenvolvida para apoiar docentes no planejamento pedagógico. A ferramenta é capaz de criar materiais didáticos para sala de aula, organizar planos de aula de forma simplificada, gerar questões e corrigir provas.",
+        "Casos de Uso": "Orientação e estímulo consciente dos alunos para uso da IA no gerenciamento dos projetos no dia a dia educacional; uso de simuladores nas aulas; Oferta do curso de IA para produção audiovisual. ",
+        "Licença": "Pago",
+        "Link": "https://www.teachy.com.br/"
+    },
+    {
+        "Departamento Regional": "Bahia",
+        "Inteligência Artificial": "Writecream",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Conversacional (Chatbot)",
+        "Descrição da Inteligência Artificial": "Writecream é uma ferramenta baseada em inteligência artificial especializada na geração de textos e scripts. Utilizando algoritmos avançados de processamento de linguagem natural, Writecream é capaz de criar conteúdos escritos de alta qualidade para diversas finalidades, incluindo artigos, roteiros, posts em redes sociais e e-mails. ",
+        "Casos de Uso": "A atividade desenvolvida foi realizada com a turma de Full Stack com o objetivo de os alunos criarem uma empresa para alocar o desenvolvimento do projeto integrador e realizarem entrevista com o cliente solicitante da solução. Desse modo, os alunos foram estimulados a criarem uma empresa e para atingir o objetivo utilizaram como apoio as ferramentas de IA para gerar propostas de nomes e logo da empresa. Posteriormente, os alunos tiveram que definir o objeto de estudo e as soluções para o problema de um cliente encontrado por eles. Em seguida realizaram uma entrevista com o cliente, que foi auxiliada pela IA gerador de perguntas ",
+        "Licença": "Gratuito",
+        "Link": "https://www.writecream.com/"
+    },
+    {
+        "Departamento Regional": "Pernambuco",
+        "Inteligência Artificial": "ZZZ Code",
+        "Categoria": "Prática Docente",
+        "Subcategoria da Ferramenta": "Geração de código",
+        "Descrição da Inteligência Artificial": "ZZZ Code AI é uma ferramenta baseada em inteligência artificial projetada para gerar códigos em diversas linguagens de programação e fornecer explicações detalhadas sobre eles. Utilizando algoritmos avançados de aprendizado de máquina, a ferramenta é capaz de interpretar requisitos específicos e produzir códigos eficientes e funcionais. ",
+        "Casos de Uso": "Adaptação da IA as necessidades individuais dos alunos, materiais e exercícios personalizados. Uso como assistentes virtuais, análise de dados educacionais, simulação e ambientação de protótipo.   ",
+        "Licença": "Gratuito",
+        "Link": "https://zzzcode.ai/"
+    }
+]

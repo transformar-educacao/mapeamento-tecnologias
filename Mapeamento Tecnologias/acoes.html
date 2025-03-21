@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+<script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js"></script>
+<script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-map.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+<script src="https://cdn.anychart.com/geodata/latest/countries/brazil/brazil.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script2.js" defer></script>
+  <link rel="icon" type="image/png" href="assets/estados/criatividade.png">
+  <title>Dashboard de Tecnologias Educacionais</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+ 
+    <div class="dashboard-container">
+        <h1 class="page-title text-center">Mapeamento de Ações</h1>
+        <h3 class="page-subtitle">Lorem Ipsum</h3>
+        <p class="descricaoTecnologia">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et neque rhoncus, elementum dui vitae, interdum orci. Suspendisse id nunc ipsum. Sed libero elit, tempus id ultrices rutrum, volutpat sed ante. Proin vel malesuada arcu. Mauris euismod ullamcorper tellus, in iaculis purus volutpat ac. Quisque luctus odio porttitor quam ornare, sed sollicitudin libero congue. Curabitur dictum sodales erat in interdum. Nulla ac tellus feugiat risus hendrerit feugiat sed id urna.</p>
+       <br>
+        <!-- Filtros (Dropdowns) -->
+        
+        <!-- Cards com Gráficos -->
+        <div class="charts-section">
+          <!-- Gráfico 1 -->
+          <div class="chart-card">
+            <div class="chart-card-header">
+                Distribuição de ações por categoria
+            </div>
+           
+            <div class="chart-container adjust-padding">
+                <canvas id="licenseChart"></canvas>
+            </div>
+            <div class="custom-spacing"></div>
+            <div class="chart-legend">
+                <span class="legend-item">
+                    <span class="legend-color" style="background-color: #9bb8d3;"></span> Conteúdos e Eventos
+                </span>
+                <span class="legend-item">
+                    <span class="legend-color" style="background-color: #f7b563;"></span> Formação Docente
+                </span>
+                <span class="legend-item">
+                    <span class="legend-color" style="background-color: #b8d9c8;"></span> Gestão Educacional
+                </span>
+                <span class="legend-item">
+                    <span class="legend-color" style="background-color: #7c91b3;"></span> Oferta Educacional
+                </span>
+                <span class="legend-item">
+                    <span class="legend-color" style="background-color: #f4d4a3;"></span> Prática Docente
+                </span>
+            </div>
+        </div>
+          
+          <!-- Gráfico 2 -->
+        <div class="chart-card">
+          
+            <div class="chart-card-header">
+           Mapeamento de ações por Departamento Regional
+            </div>
+            <div class="chart-container" id="map-container">
+            <!-- O mapa será renderizado aqui -->
+            </div>
+            <div class="chart-legend">
+              <span class="legend-item">
+                  <span class="legend-color" style="background-color: #004a8d;"></span> Sul/Sudeste
+              </span>
+              <span class="legend-item">
+                  <span class="legend-color" style="background-color: #f7941d;"></span> Norte/Centro-Oeste
+              </span>
+              <span class="legend-item">
+                  <span class="legend-color" style="background-color: #fdc180;"></span> Nordeste
+          </div>
+        </div>
+        </div>
+        <p class="explicaFiltros">Os gráficos são interativos e funcionam como filtros passe o mouse e clique para usar.</p>   
+        <!-- Seção de Tecnologias -->
+        <div class="technologies-section">
+          <h2 class="technologies-title">Lorem Ipsum</h2>
+          <p class="descricaoTecnologia">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum elementum accumsan. Donec ultricies risus velit, non sollicitudin massa sagittis ut. Integer ac feugiat dui. Cras quis scelerisque massa. Vestibulum euismod sed elit id rutrum. Suspendisse blandit enim in velit gravida, in interdum neque aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce venenatis consectetur scelerisque. Nunc posuere, sapien vel tristique porttitor, massa tortor molestie metus, eget viverra ex mauris at magna. Sed sodales dolor libero. Aenean vitae porttitor lectus. Quisque luctus semper ligula nec commodo. Quisque eu placerat neque. Donec scelerisque eu velit at luctus. Nam quis volutpat enim.</a>
+          </p>
+
+          <div class="filters-section">
+            <!-- Dropdown 1 -->
+            <div class="dropdown">
+              <input type="checkbox" id="dropdown1">
+              <label class="dropdown__face" for="dropdown1">
+                <div class="dropdown__text">Categoria da ação</div>
+                <div class="dropdown__arrow"></div>
+              </label>
+              <ul class="dropdown__items">
+              <li>Todos os tipos de licença</li>
+                <li>Gratuito</li>
+                <li>Pago</li>
+                <li>Gratuito com opções premium</li>
+                
+              </ul>
+            </div>
+            
+            <!-- Dropdown 2 -->
+            <div class="dropdown">
+              <input type="checkbox" id="dropdown2">
+              <label class="dropdown__face" for="dropdown2">
+                <div class="dropdown__text">Tecnologia utilizada</div>
+                <div class="dropdown__arrow"></div>
+              </label>
+              <ul class="dropdown__items">
+                <li>Todos os tipos de tecnologia</li>
+              
+              </ul>
+            </div>
+            
+            <!-- Dropdown 3 -->
+            <div class="dropdown">
+              <input type="checkbox" id="dropdown3">
+              <label class="dropdown__face" for="dropdown3">
+                <div class="dropdown__text">Departamento Regional</div>
+                <div class="dropdown__arrow"></div>
+              </label>
+              <ul class="dropdown__items">
+                <li>Todos os Departamentos</li>
+                <li>Acre</li>  
+               <li>Alagoas</li>  
+               <li>Amapá</li>  
+               <li>Amazonas</li>  
+               <li>Bahia</li>  
+               <li>Ceará</li>  
+               <li>Distrito Federal</li>  
+               <li>Espírito Santo</li>  
+               <li>Goiás</li>  
+               <li>Maranhão</li>  
+               <li>Mato Grosso</li>  
+               <li>Mato Grosso do Sul</li>  
+               <li>Minas Gerais</li>  
+               <li>Pará</li>  
+               <li>Paraíba</li>  
+               <li>Paraná</li>  
+               <li>Pernambuco</li>  
+               <li>Piauí</li>  
+               <li>Rio de Janeiro</li>  
+               <li>Rio Grande do Norte</li>  
+               <li>Rio Grande do Sul</li>  
+               <li>Rondônia</li>  
+               <li>Roraima</li>  
+               <li>Santa Catarina</li>  
+               <li>São Paulo</li>  
+               <li>Sergipe</li>  
+               <li>Tocantins</li>  
+              </ul>
+            </div>
+          </div>
+           <!-- Botão de Ação -->
+  
+        <button class="action-button">
+          <a href="https://forms.office.com/r/WC8sknskh6" target="_blank" class="redirect" style="text-decoration: none; color: white;">
+          <i class="fas fa-plus-circle"></i> Lorem Ipsum
+        </a>
+        </button>
+      </div>
+          <div class="technologies-grid" id="technologies-container">
+            <!-- Tecnologias serão inseridas dinamicamente via JavaScript -->
+          </div>
+          <a href="https://forms.office.com/r/WC8sknskh6" target="_blank" class="redirect" >
+            <button class="action-button">
+              <i class="fas fa-plus-circle"></i> Lorem Ipsum
+            </button>
+          </a>
+        <div>
+          <!-- Paginação -->
+          <div class="pagination">
+            <button class="pagination-button" id="prev-page" disabled>
+              <i class="fas fa-chevron-left"></i> Anterior
+            </button>
+            <div class="page-indicator">
+              Página <span id="current-page">1</span> de <span id="total-pages">1</span>
+            </div>
+            <button class="pagination-button" id="next-page">
+              Próxima <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        
+       
+      <!-- SVG Filter para efeito Goo nos dropdowns -->
+      <svg>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+      </svg>
+
+</body>
+
+</html>

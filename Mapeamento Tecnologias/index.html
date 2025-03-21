@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+  <script src="script.js" defer></script>
+  <link rel="icon" type="image/png" href="assets/estados/criatividade.png">
+  <title>Mapeamento de aplicações de Inteligência Artificial</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+ 
+    <div class="dashboard-container">
+        <h1 class="page-title text-center">Mapeamento de aplicações de Inteligência Artificial</h1>
+        <h3 class="page-subtitle">Recursos e Tecnologia</h3>
+        <p class="descricaoTecnologia">Com o objetivo de fornecer uma visão detalhada de como as tecnologias de inteligência artificial estão transformando o ensino, a gestão educacional, a formação de professores e a criação de conteúdos e eventos, elaboramos esse conteúdo com o intuito de explorar e registrar as diversas ferramentas de IA que estão sendo implementadas em diferentes Departamentos Regionais do Senac.
+
+          A inteligência artificial está rapidamente se tornando uma aliada indispensável no processo de aprendizagem, oferecendo soluções inovadoras para problemas complexos e aprimorando a eficiência e a qualidade da educação. Desde ferramentas que auxiliam na criação de desenhos e apresentações até plataformas avançadas para o desenvolvimento de conteúdos interativos e personalização do aprendizado, as possibilidades são vastas e promissoras.</p>
+        <!-- Filtros (Dropdowns) -->
+        
+        <!-- Cards com Gráficos -->
+        <div class="charts-section">
+          <!-- Gráfico 1 -->
+          <div class="chart-card">
+            <div class="chart-card-header">
+              Distribuição de ferramentas por licença
+            </div>
+            <div class="chart-container">
+              <canvas id="licenseChart"></canvas>
+            </div>
+          </div>
+          
+          <!-- Gráfico 2 -->
+          <div class="chart-card">
+            <div class="chart-card-header">
+              Distribuição de ferramentas por tipo
+            </div>
+            <div class="chart-container">
+              <canvas id="typeChart"></canvas>
+            </div>
+          </div>
+          
+        
+        </div>
+        
+        <!-- Seção de Tecnologias -->
+        <div class="technologies-section">
+          <h2 class="technologies-title">Tecnologias Educacionais</h2>
+          <p class="descricaoTecnologia">Aqui você encontra uma descrição detalhada de várias ferramentas de IA, como as suas funcionalidades, categorias de aplicação e casos de uso específicos em diferentes departamentos regionais.
+            Cada entrada fornece insights sobre como essas tecnologias estão sendo utilizadas nos DR's para melhorar a prática docente, otimizar a gestão educacional, inovar na oferta educacional e enriquecer a formação de docentes.
+             Contribua adicionando uma tecnologia que não esteja listada, mas que lhe ajudou em um desses processos, clique no botão <a href="https://forms.office.com/r/WC8sknskh6" target="_blank" class="redirect">"Submeter tecnologia ou recurso".</a>
+          </p>
+
+          <div class="filters-section">
+            <!-- Dropdown 1 -->
+            <div class="dropdown">
+              <input type="checkbox" id="dropdown1">
+              <label class="dropdown__face" for="dropdown1">
+                <div class="dropdown__text">Tipos de licença</div>
+                <div class="dropdown__arrow"></div>
+              </label>
+              <ul class="dropdown__items">
+              <li>Todos os tipos de licença</li>
+                <li>Gratuito</li>
+                <li>Pago</li>
+                <li>Gratuito com opções premium</li>
+                
+              </ul>
+            </div>
+            
+            <!-- Dropdown 2 -->
+            <div class="dropdown">
+              <input type="checkbox" id="dropdown2">
+              <label class="dropdown__face" for="dropdown2">
+                <div class="dropdown__text">Tipos de Ferramenta</div>
+                <div class="dropdown__arrow"></div>
+              </label>
+              <ul class="dropdown__items">
+                <li>Todos os tipos</li>
+                <li>IA conversacional</li>
+                <li>IA para automação de tarefas</li>
+                <li>Gamificação para educação</li>
+                <li>Moodle Educacional</li>
+              </ul>
+            </div>
+            
+            <!-- Dropdown 3 -->
+            <div class="dropdown">
+              <input type="checkbox" id="dropdown3">
+              <label class="dropdown__face" for="dropdown3">
+                <div class="dropdown__text">Experiências por Departamento Regional</div>
+                <div class="dropdown__arrow"></div>
+              </label>
+              <ul class="dropdown__items">
+                <li>Todos os Departamentos</li>
+                <li>Acre</li>  
+               <li>Alagoas</li>  
+               <li>Amapá</li>  
+               <li>Amazonas</li>  
+               <li>Bahia</li>  
+               <li>Ceará</li>  
+               <li>Distrito Federal</li>  
+               <li>Espírito Santo</li>  
+               <li>Goiás</li>  
+               <li>Maranhão</li>  
+               <li>Mato Grosso</li>  
+               <li>Mato Grosso do Sul</li>  
+               <li>Minas Gerais</li>  
+               <li>Pará</li>  
+               <li>Paraíba</li>  
+               <li>Paraná</li>  
+               <li>Pernambuco</li>  
+               <li>Piauí</li>  
+               <li>Rio de Janeiro</li>  
+               <li>Rio Grande do Norte</li>  
+               <li>Rio Grande do Sul</li>  
+               <li>Rondônia</li>  
+               <li>Roraima</li>  
+               <li>Santa Catarina</li>  
+               <li>São Paulo</li>  
+               <li>Sergipe</li>  
+               <li>Tocantins</li>  
+              </ul>
+            </div>
+          </div>
+           <!-- Botão de Ação -->
+           <a href="https://forms.office.com/r/WC8sknskh6" target="_blank" class="redirect">
+        <button class="action-button">
+          <i class="fas fa-plus-circle"></i> Submeter tecnologia ou recurso
+        </button>
+      </a>
+      </div>
+          <div class="technologies-grid" id="technologies-container">
+            <!-- Tecnologias serão inseridas dinamicamente via JavaScript -->
+          </div>
+          <a href="https://forms.office.com/r/WC8sknskh6" target="_blank" class="redirect">
+            <button class="action-button">
+              <i class="fas fa-plus-circle"></i> Submeter tecnologia ou recurso
+            </button>
+          </a>
+        <div>
+          <!-- Paginação -->
+          <div class="pagination">
+            <button class="pagination-button" id="prev-page" disabled>
+              <i class="fas fa-chevron-left"></i> Anterior
+            </button>
+            <div class="page-indicator">
+              Página <span id="current-page">1</span> de <span id="total-pages">1</span>
+            </div>
+            <button class="pagination-button" id="next-page">
+              Próxima <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        
+       
+      <!-- SVG Filter para efeito Goo nos dropdowns -->
+      <svg>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+      </svg>
+
+</body>
+
+</html>
